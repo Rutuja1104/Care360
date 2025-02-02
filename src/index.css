@@ -1,0 +1,21 @@
+@import "../src/assets/scss/index.scss";
+
+body {
+    background: #f3f3f3 0% 0% no-repeat padding-box !important;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d2cfcf;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar {
+    height: 3px !important;
+}
