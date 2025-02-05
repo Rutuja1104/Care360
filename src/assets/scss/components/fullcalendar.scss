@@ -1,0 +1,87 @@
+.fc {
+    .fc-toolbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.16px;
+            color: #1b5984;
+            opacity: 1;
+            text-transform: capitalize;
+        }
+
+        .fc-toolbar-chunk {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .fc-button-group {
+                .fc-today-button {
+                    background: #ffffff 0% 0% no-repeat padding-box;
+                    border: 1px solid #1b5984;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    opacity: 1;
+                    color: #1b5984;
+                    text-transform: capitalize;
+                }
+
+                .fc-prev-button {
+                    background: #ffffff 0% 0% no-repeat padding-box;
+                    color: #1b5984;
+                    border: none;
+                    opacity: 1;
+                }
+
+                .fc-next-button {
+                    background: #ffffff 0% 0% no-repeat padding-box;
+                    color: #1b5984;
+                    border: none;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .fc-button-primary:focus {
+        box-shadow: none !important;
+    }
+
+    .fc-header-toolbar {
+        border: 1px solid rgb(215, 212, 212);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .fc-col-header-cell {
+        padding: 6px !important;
+
+        .fc-scrollgrid-sync-inner {
+            .fc-col-header-cell-cushion {
+                text-align: left;
+                font: normal normal medium 18px/21px Roboto;
+                letter-spacing: -0.18px;
+                color: #3a3a3a99;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .fc-daygrid-day-top {
+        justify-content: center;
+
+        .fc-daygrid-day-number {
+            text-align: left;
+            font: normal normal medium 18px/21px Roboto;
+            letter-spacing: -0.18px;
+            color: #1a1a1a99;
+            opacity: 1;
+            text-decoration: none;
+        }
+    }
+}

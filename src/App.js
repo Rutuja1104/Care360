@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Button from "./components/button/Button";
+import "./assets/scss/index.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BUTTON_TYPE } from "./libs/constatnt";
+import Label from "./components/label/Label";
+import TextInput from "./components/input/textinput/TextInput";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button styles={{ width: "4.5rem", marginRight: "1rem", display: "flex" }}>Hii</Button>
+      <Button
+        variant={BUTTON_TYPE.BUTTON_WITH_RED_COLOR_BG}
+        styles={{ width: "4.5rem", marginRight: "1rem", display: "flex" }}
+        onClickCb={() =>{
+        }
+        }
+      >
+        Cancel
+      </Button>
+      <Label>Name:
+      <TextInput></TextInput>            
+      </Label>
     </div>
   );
 }

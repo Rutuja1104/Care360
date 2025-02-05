@@ -1,0 +1,190 @@
+.sheet-container-encounter {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #84818140;
+    border-radius: 5px;
+    min-height: 85px;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+
+    .sheet-header-encounter {
+        color: #1B5984 !important;
+        text-transform: uppercase;
+        font-size: 14px !important;
+        opacity: 1;
+    }
+
+    .view-all {
+        color: #1b5984;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 14px !important;
+    }
+
+    .diagnosis-text {
+        font-size: 14px;
+        color: #1a1a1acc;
+        font-weight: 600;
+    }
+
+    .diagnosis-type {
+        font-size: 14px;
+        color: #1a1a1a99;
+        font-weight: 600;
+    }
+
+    .diagnosis-onsetdate {
+        font-size: 14px;
+        color: #1A1A1A80;
+        font-weight: 600;
+    }
+
+    .onset-date {
+        font-size: 14px;
+        color: #1a1a1a99;
+        letter-spacing: 0.17px;
+        font-weight: 500;
+    }
+}
+
+.hr-encounter {
+    border: none;
+    border: 1px solid #1A1A1A26;
+}
+
+.questions-data {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #7d7a7a40;
+    border-radius: 5px;
+    min-width: 20%;
+    min-height: 650px;
+
+    .question {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1a1a1acc;
+    }
+
+    .question-date {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1a1a1a80;
+    }
+}
+
+.circle-list {
+    width: 5px;
+    background: #1b5984 0% 0% no-repeat padding-box;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.questions-data-info {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #7d7a7a40;
+    border-radius: 5px;
+    width: 80%;
+    min-height: 650px;
+}
+
+.questions-type {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 7px solid white;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.selected-questions-type {
+    background: #7070700f 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 7px solid #1b5984;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.questionnaires-list {
+    padding: 10px 16px;
+    background: #7070700f 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #1a1a1acc;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.export-as-pdf {
+    color: #1b5984;
+}
+
+.social-history-info {
+    width: 605px;
+    min-height: 650px;
+    font: bold 28px;
+    color: #1a1a1a;
+}
+
+.social-history-list {
+    padding: 10px 16px;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hr {
+    border: none;
+    border: 1px dashed #1a1a1a40;
+}
+
+.social-history-questions {
+    padding: 20px 30px;
+}
+
+.social-history-score {
+    width: 35%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #7d7a7a40;
+    border-radius: 5px;
+    min-height: 650px;
+    padding: 20px 15px;
+}
+
+.encounter-dropdown {
+    margin-top: 12px !important;
+    margin-bottom: 18px !important;
+    width: 160px !important;
+    padding: 3px 0px !important;
+    color: #1A1A1A99 !important;
+    border-radius: 5px !important;
+    background-color: #1A1A1A0D !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+
+    .accordion-item {
+        border: none !important;
+        border: 1px solid #1A1A1A26 !important;
+        border-radius: 5px !important;
+        opacity: 1 !important;
+    }
+
+    .dropdown-menu {
+        padding: 5px 10px !important;
+        color: #1A1A1A99 !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        background-color: #1A1A1A0D !important;
+        border-radius: 5px !important;
+        border: 1px solid #1A1A1A26 !important;
+        z-index: 1000;
+    }
+
+}
+
+.encounter-details .show .dropdown-toggle {
+    background-color: #1A1A1A0D !important;
+}
+
+
+.accordion-button-encounter {
+    height: 20px !important;
+}

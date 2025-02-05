@@ -1,0 +1,54 @@
+.edit-button-appointment {
+    background-color: #CCECFF80;
+    color: #1B5984;
+    font-weight: 600;
+    height: 24px;
+    width: 72px;
+    padding: 0px 13px;
+    border-radius: 15px;
+
+}
+
+.hr-appointment {
+    border: none;
+    border: 1px solid #4C4C4C33;
+}
+
+.appointment-label {
+    color: #1A1A1A66;
+    font-weight: 600;
+}
+
+.appointment-value {
+    color: #1A1A1ACC;
+    font-weight: 600;
+}
+
+.viewform-label {
+    font-size: 14px;
+    color: #1A1A1A;
+    font-weight: 600;
+    margin-bottom: 1px !important;
+}
+
+.viewfrom-value {
+    font-size: 14px;
+    color: #1A1A1A80;
+}
+.intake-button {
+    background-color: #1A1A1A0D !important;
+    color: #1A1A1A99 !important;
+    border: 1px solid #1A1A1A26;
+    white-space: nowrap;
+    height: 33px;
+    width: 100px;
+    padding: 0px 20px;
+
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.intake-button:hover {
+    background-color: #0041860D !important; 
+    color: #1B5984 !important; 
+    border: 1px solid #1B5984 !important;
+}

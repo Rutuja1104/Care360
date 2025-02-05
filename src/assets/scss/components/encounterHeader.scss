@@ -1,0 +1,78 @@
+.encounter-header {
+    height: auto;
+    box-shadow: 0px 0px 8px #00000029;
+    border-radius: 5px 5px 0px 0px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.chart-content-encounter {
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.flag-text-allergic-count {
+    color: #FF3939;
+    font-size: 14px;
+    padding: 0px 9px 0px 13px;
+    background: #fff2c7 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #FF39391A;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.invite-patient-btn {
+    white-space: nowrap;
+    height: 25px;
+    width: 15%;
+    background-color: #1a1a1a0d;
+    color: #1a1a1a99;
+    border: 1px solid #1a1a1a33;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 2px 8px 2px 8px;
+}
+
+.flag-text-encounter {
+    color: #d5a400;
+    font-size: 12px;
+    padding: 0px 8px 0px 12px;
+    background: #fff2c7 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.flag-text-encounter:hover .flag-close-icon {
+    display: inline-block;
+}
+
+.flag-close-icon {
+    display: none;
+    width: 8px;
+    height: 0px;
+    margin-top: -25px;
+}
+
+.subjective-body-card {
+    margin: 12px 12px 12px 0px;
+    height: 98%;
+    box-shadow: 0px 0px 8px #00000029;
+    border-radius: 5px 5px 0px 0px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 16px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+    .chart-content-encounter {
+        height: 93px;
+        width: 1334px;
+    }
+}
